@@ -41,4 +41,4 @@
 
 objj = {name:"Saketh",age:20,gender:"Male"}
 
-console.log(objj[1])
+console.log(objj.name)

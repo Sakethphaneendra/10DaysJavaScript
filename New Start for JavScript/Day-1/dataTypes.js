@@ -42,3 +42,4 @@ function Symbol(a){
 // Declare a variable myBigInt and assign it a BigInt value of your choice.
 myBigInt = 9121212121212223372036854775807
 console.log(typeof(myBigInt))
+
