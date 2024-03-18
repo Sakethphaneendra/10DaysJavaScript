@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = prompt("Enter Your Name ")
+
+        var gender = diolog()
+        function diolog(){    
+            var gender = prompt("Enter Your Gender (Male/Female)")
+            if(gender == 'M'||gender=='m'){
+                gender = "Mr."
+                return gender;
+            } 
+            else if(gender == 'F'||gender=='f'){
+                gender ="Ms."
+                return gender;
+            }
+            else{
+                alert("Invalid Option Try Again")
+                diolog()
+            }
+        }
+        document.write("Hello "+gender+ " " +name )
+      
+        
+    
+
+    </script>
+</body>
+</html>
