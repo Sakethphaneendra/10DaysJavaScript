@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Enter A value </label><input type="number" class="a"> <br>
+    <label for="">Enter A value </label><input type="number" class="b"><br>
+
+    <button onclick="rem()">submit</button>
+
+    <script>
+        function rem(){
+
+       
+        var a = document.getElementsByClassName("a")[0].value;
+        console.log(a);
+        var b = document.getElementsByClassName("b")[0].value;
+        console.log(b);
+
+
+        console.log("Reminder is " + a%b);
+        console.log("Q is " + a/b);
+
+    }
+    </script>
+</body>
+</html>
