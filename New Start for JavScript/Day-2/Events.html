@@ -1,0 +1,39 @@
+<html>
+<body>
+ 
+    <input type="text" id="In">
+    <button onclick="names()">Click me</button>
+    <br><h3></h3>
+    <script>
+
+
+        function names(){
+          
+           var nam = document.getElementById('In').value
+           console.log(nam) 
+           const x = document.querySelector('h3').textContent = "Hello Ms."+nam
+
+        }
+      
+    </script>
+    
+    <style>
+        body{
+            width: 100vw;
+            padding: 0;
+            background-color: rgb(255, 255, 255);
+            margin: 0;
+            height: 4vh;
+            display: flex;
+            justify-content: center;
+
+        }
+        button{
+           
+            border: none;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</body>
+</html>
