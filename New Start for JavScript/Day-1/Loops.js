@@ -39,6 +39,6 @@
 //  a person with properties like name and age, and logs each person's name and age 
 // to the console.
 
-objj = {name:"Saketh",age:20,gender:"Male"}
+objj = {[names:"Saketh",age:20,gender:"Male"]
+        [names:"Saketh",age:20,gender:"Male"]}
 
-console.log(objj.name)
